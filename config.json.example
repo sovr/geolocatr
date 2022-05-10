@@ -1,0 +1,5 @@
+{
+  "port": 3000,
+  "maxMind_accountID" : "accountIdHere",
+  "maxMind_licenseKey" : "licenseKeyHere"
+}
