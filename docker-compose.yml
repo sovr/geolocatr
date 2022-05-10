@@ -1,13 +1,7 @@
-version: '1'
+version: "1"
+
 services:
-  web:
-    build:
-      context: ./
-    volumes:
-      - .:/src
-    command: npm run start
+  node-express:
+    build: .
     ports:
-      - "3000:3000"
-    environment:
-      NODE_ENV: development
-      DEBUG: nodejs-docker-express:*
+      - 3000:3000
