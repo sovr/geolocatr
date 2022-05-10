@@ -15,6 +15,10 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'))
 })
 
+app.get('/ip', (req, res) => {
+  res.json({"error": "No IP address provided."})
+})
+
 app.get('/ip/:ip', (req, res) => {
   //let's validate input on server side too
   let ip = req.params.ip;
