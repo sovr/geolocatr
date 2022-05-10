@@ -1,4 +1,4 @@
-# Geolocatr
+# geolocatr
 By Sarah Ovresat.
 
 A web app that echoes out latitude and longitude information, given an IPv4 address.
@@ -15,8 +15,7 @@ A web app that echoes out latitude and longitude information, given an IPv4 addr
 For now, you can test the app manually by typing in input to the input field and submitting it.
 There is also an API endpoint that can be tested.
 
-**Front End Tests**
-
+### Front End Tests
 Run the web app.
 
 1. Type in any string to the input field, and submit.
@@ -31,8 +30,7 @@ Run the web app.
    - Pass: "An account ID and license key are required to use this service." is displayed.
 
 
-**Server Tests**
-
+### Server Tests
 Run the web app.
 
 1. Go to http://localhost:yourporthere/ip/
