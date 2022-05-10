@@ -16,7 +16,9 @@ For now, you can test the app manually by typing in input to the input field and
 There is also an API endpoint that can be tested.
 
 **Front End Tests**
+
 Run the web app.
+
 1. Type in any string to the input field, and submit.
  - Pass: "Not a valid IPv4 address is" is displayed.
 2. Leave the field empty, and submit.
@@ -30,8 +32,11 @@ Run the web app.
 6. Make the api keys in config.json empty strings, and restart the app.
   - Pass: "An account ID and license key are required to use this service." is displayed.
 
+
 **Server Tests**
+
 Run the web app.
+
 1. Go to http://localhost:yourporthere/ip/
   - Pass: `{"error":"No IP address provided."}` is displayed.
 2. Go to http://localhost:yourporthere/ip/123121
